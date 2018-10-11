@@ -1,17 +1,59 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Matheus's Page</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
+          <head>
+            <!-- Required meta tags -->
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+            <!-- Bootstrap CSS -->
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+            
+            <!--font CSS-->
+            <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+        
+            <!--fontawesome icons CSS-->
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+            
+            <!--link to my own stylesheet, has to come after link to bootstrap otherwise bootstrap will override it-->
+            <link rel="stylesheet" href="styles.css">
+            <title>CV Page</title>
+          </head>
+        
+          <body>
+                <div class="container">
+            
+                    <!--navbar goes here-->
+                        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                                <a class="navbar-brand"><i class="fas fa-futbol"></i></a>
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                  <span class="navbar-toggler-icon"></span>
+                                </button>
+                              
+                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                  <ul class="navbar-nav mr-auto">
+                                    <li class="nav-item active">
+                                      <a class="nav-link" href="index.html"><i class="fas fa-home"></i>Home <span class="sr-only">(current)</span></a>
+                                    </li>
+                                    <li class="nav-item">
+                                      <a class="nav-link" href="old.html"><i class="far fa-file"></i>CV</a>
+                                    </li>
+                                    <li class="nav-item">
+                                      <a class="nav-link" href="recipe.html"><i class="fas fa-utensils"></i>Chili Recipe</a>
+                                    </li>
+                                  </ul>
+                                  <form class="form-inline my-2 my-lg-0">
+                                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                                  </form>
+                                </div>
+                              </nav>
+                </div>
         <!--this is where the fun begins-->
         <h1>Hello! This is my website! Woooooooo</h1>
         <h2>I'm super pumped about it yeeeeeeee</h2>
         <p id="p1" class="tacos">Isn't this shit <em>awesome?</em></p>
-        <img id="face" src="face.jpg">
-        <p id="p2" class="tacos">Go to the <a href="http://google.com/">Internet</a></p>
-        <p id="p3"><a href="whatever.html">Go to my awesome second page.</a></p>
-        <p id="p4"><a href="ugly.html">Go to my UGLY page!</a></p>
+        <div class="alert alert-primary" role="alert">
+            WARNING: This page is out of date!
+          </div>
     </body>
 </html>
